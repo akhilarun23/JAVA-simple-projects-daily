@@ -12,3 +12,8 @@
 
   Finally, the method creates another instance of the SavingsAccount class with an account number of "SA1000" and an initial balance of $300. It then attempts to withdraw $250 from the account, which would bring the balance below the minimum balance required for the account. The method displays the new balance after the attempted withdrawal, which should still be $300 since the withdrawal was unsuccessful.
 
+![image](https://github.com/user-attachments/assets/c6f0c29a-4d3a-4e76-b365-2dd21be92c60)
+
+![image](https://github.com/user-attachments/assets/3350561f-71ba-4a64-8c96-074a8096127a)
+![image](https://github.com/user-attachments/assets/0cd9b3b3-b53d-4878-b401-5cfd711c9fed)
+
