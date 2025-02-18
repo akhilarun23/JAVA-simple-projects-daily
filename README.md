@@ -17,7 +17,7 @@
 ![image](https://github.com/user-attachments/assets/3350561f-71ba-4a64-8c96-074a8096127a)
 ![image](https://github.com/user-attachments/assets/0cd9b3b3-b53d-4878-b401-5cfd711c9fed)
 
-#2.EXPLANATION OF [MADLIBS]{https://github.com/akhilarun23/JAVA-simple-projects-daily/blob/main/MadLibs.java}
+#2.EXPLANATION OF [MADLIBS](https://github.com/akhilarun23/JAVA-simple-projects-daily/blob/main/MadLibs.java)
 # Java Mad Libs
 
 ## Description
