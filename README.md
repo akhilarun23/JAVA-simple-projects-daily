@@ -17,3 +17,50 @@
 ![image](https://github.com/user-attachments/assets/3350561f-71ba-4a64-8c96-074a8096127a)
 ![image](https://github.com/user-attachments/assets/0cd9b3b3-b53d-4878-b401-5cfd711c9fed)
 
+#2.EXPLANATION OF [MADLIBS]{https://github.com/akhilarun23/JAVA-simple-projects-daily/blob/main/MadLibs.java}
+# Java Mad Libs
+
+## Description
+Mad Libs is a fun word game where players fill in the blanks of a short story with different types of words (nouns, verbs, adjectives, etc.), leading to hilarious or unexpected results. In this project, we'll use Java to create an interactive Mad Libs game.
+
+## Features
+- Prompts users to enter words for blank spaces in a story
+- Generates a funny or unexpected story using user input
+- Runs in the console
+- Demonstrates the use of Java variables and user input
+
+## Technologies Used
+- Java
+- Scanner class for user input
+
+## How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/mad-libs-java.git
+   cd mad-libs-java
+   ```
+2. Compile the Java file:
+   ```bash
+   javac MadLibs.java
+   ```
+3. Run the program:
+   ```bash
+   java MadLibs
+   ```
+
+## Example Output
+```
+Enter a noun: dog
+Enter a verb: runs
+Enter an adjective: happy
+Enter an adverb: quickly
+
+Here is your Mad Libs story:
+The happy dog runs quickly through the park!
+```
+“Roses are Red” poem example:
+![image](https://github.com/user-attachments/assets/a41a3f9d-5d4b-4ee4-b116-950728e86f5e)
+
+
+
+
