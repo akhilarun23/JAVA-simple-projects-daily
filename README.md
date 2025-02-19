@@ -61,6 +61,24 @@ The happy dog runs quickly through the park!
 “Roses are Red” poem example:
 ![image](https://github.com/user-attachments/assets/a41a3f9d-5d4b-4ee4-b116-950728e86f5e)
 
+# 3.[PLANTING A TREE IN JAVA]()
+
+# 🌲 Tree Planting Program in Java
+
+## 📌 Description
+This is a simple Java program that prints a tree pattern to the console. It demonstrates the use of `System.out.println()`, loops, and basic formatting techniques to display a visually appealing tree structure. Additionally, the program introduces a short animation effect using `Thread.sleep()`.
+
+## 🚀 Features
+- Prints a tree pattern in the console.
+- Uses a method to structure the code better.
+- Implements a delay effect for a simple animation.
+- Beginner-friendly Java program.
+
+## 🛠️ Technologies Used
+- Java
+
+
+
 
 
 
