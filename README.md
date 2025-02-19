@@ -61,7 +61,7 @@ The happy dog runs quickly through the park!
 “Roses are Red” poem example:
 ![image](https://github.com/user-attachments/assets/a41a3f9d-5d4b-4ee4-b116-950728e86f5e)
 
-# 3.[PLANTING A TREE IN JAVA]()
+# 3.[PLANTING A TREE IN JAVA](https://github.com/akhilarun23/JAVA-simple-projects-daily/blob/main/plantingATree.java)
 
 # 🌲 Tree Planting Program in Java
 
