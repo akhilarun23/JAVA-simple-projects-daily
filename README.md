@@ -77,7 +77,7 @@ This is a simple Java program that prints a tree pattern to the console. It demo
 ## 🛠️ Technologies Used
 - Java
 
-#4.[Math Magic]()
+#4.[Math Magic](https://github.com/akhilarun23/JAVA-simple-projects-daily/blob/main/MathMagic.java)
 # 🧮 Magic Number Calculation
 
 This Java program demonstrates arithmetic operations using integer variables.
