@@ -1,4 +1,4 @@
-#1.EXPLANATION OF [deposit tracking software](https://github.com/akhilarun23/JAVA-simple-projects-daily/commit/4d0fb96fbf2c3d3c64daa1cc3ef90f88dfbac0fc):
+# 1. [deposit tracking software](https://github.com/akhilarun23/JAVA-simple-projects-daily/commit/4d0fb96fbf2c3d3c64daa1cc3ef90f88dfbac0fc):
   The BankAccount class has a constructor that takes account number and balance as arguments. It also has methods to deposit and withdraw money, and to check the account balance.
 
   The SavingsAccount class is a subclass of BankAccount and overrides the withdraw() method. It checks if the account balance falls below one hundred before allowing a withdrawal. The method prints an error message if the balance is below one hundred. If the balance is greater than or equal to one hundred, the method calls the withdraw() method of the superclass to withdraw.
@@ -17,7 +17,7 @@
 ![image](https://github.com/user-attachments/assets/3350561f-71ba-4a64-8c96-074a8096127a)
 ![image](https://github.com/user-attachments/assets/0cd9b3b3-b53d-4878-b401-5cfd711c9fed)
 
-#2.EXPLANATION OF [MADLIBS](https://github.com/akhilarun23/JAVA-simple-projects-daily/blob/main/MadLibs.java)
+# 2.[MADLIBS](https://github.com/akhilarun23/JAVA-simple-projects-daily/blob/main/MadLibs.java)
 # Java Mad Libs
 
 ## Description
@@ -77,7 +77,7 @@ This is a simple Java program that prints a tree pattern to the console. It demo
 ## 🛠️ Technologies Used
 - Java
 
-#4.[Math Magic](https://github.com/akhilarun23/JAVA-simple-projects-daily/blob/main/MathMagic.java)
+# 4.[Math Magic](https://github.com/akhilarun23/JAVA-simple-projects-daily/blob/main/MathMagic.java)
 # 🧮 Magic Number Calculation
 
 This Java program demonstrates arithmetic operations using integer variables.
