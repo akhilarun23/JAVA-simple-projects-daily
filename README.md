@@ -77,6 +77,83 @@ This is a simple Java program that prints a tree pattern to the console. It demo
 ## 🛠️ Technologies Used
 - Java
 
+#4.[Math Magic]()
+# 🧮 Magic Number Calculation
+
+This Java program demonstrates arithmetic operations using integer variables.
+
+## 📌 Overview
+The program initializes a number, performs a series of mathematical operations, and prints the final result.
+
+## 🖥️ Code
+```java
+public class Magic {
+    public static void main(String[] args) {
+        int myNumber = 3;  // Initialize the original number
+        int m = 0;         // Initialize a variable to store results
+
+        // Applying a series of arithmetic operations
+        m *= myNumber;  // m = 0 * 3 = 0
+        m += myNumber;  // m = 0 + 3 = 3
+        m /= myNumber;  // m = 3 / 3 = 1
+        m += 17;        // m = 1 + 17 = 18
+        m -= myNumber;  // m = 18 - 3 = 15
+        m /= 6;         // m = 15 / 6 = 2 (integer division)
+
+        System.out.println(m);  // Output: 2
+    }
+}
+📖 Explanation
+Step-by-step Execution
+int myNumber = 3;
+
+This initializes myNumber with the value 3.
+int m = 0;
+
+The variable m is set to 0.
+m *= myNumber;
+
+m = 0 * 3 = 0 (Multiplying by zero keeps m as 0.)
+m += myNumber;
+
+m = 0 + 3 = 3 (Adding myNumber to m.)
+m /= myNumber;
+
+m = 3 / 3 = 1 (Integer division results in 1.)
+m += 17;
+
+m = 1 + 17 = 18 (Adding 17 to m.)
+m -= myNumber;
+
+m = 18 - 3 = 15 (Subtracting myNumber.)
+m /= 6;
+
+m = 15 / 6 = 2 (Integer division discards decimals.)
+System.out.println(m);
+
+Prints 2 as the final output.
+🚀 How to Run
+Install Java JDK if not already installed.
+
+Save the code in a file named Magic.java.
+
+Open a terminal and navigate to the file location.
+
+Compile and run the program using:
+
+sh
+Copy
+Edit
+javac Magic.java
+java Magic
+🎯 Expected Output
+Copy
+Edit
+2
+🛠️ Modifications
+You can change myNumber to test different cases.
+Modify the operations to observe different results.
+
 
 
 
