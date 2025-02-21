@@ -201,11 +201,6 @@ public static void main(String[] args) {
 - The `divide` method does not handle division by zero. Implementing a `try-catch` block is recommended.
 - The program currently returns integer results. To support floating-point calculations, modify the method parameters to `double`.
 
-## License
-This project is open-source and available for educational purposes.
-
-## Author
-Created for educational purposes to demonstrate Java programming concepts.
 
 
 
