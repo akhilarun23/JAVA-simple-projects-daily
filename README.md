@@ -157,6 +157,71 @@ Modify the operations to observe different results.
 
 
 # 5.[BASIC CALCULATOR](https://github.com/akhilarun23/JAVA-simple-projects-daily/blob/main/BasicCalculator.java)
+Description
+
+This is a simple Java program that implements a basic calculator. The Calculator class provides methods to perform basic arithmetic operations: addition, subtraction, multiplication, division, and modulo.
+
+Features
+
+Addition (add method)
+
+Subtraction (subtract method)
+
+Multiplication (multiply method)
+
+Division (divide method)
+
+Modulo (modulo method)
+
+Code Explanation
+
+The Calculator class contains the following methods:
+
+Constructor: The Calculator class has a default constructor.
+
+Addition (add): Takes two integers as input and returns their sum.
+
+Subtraction (subtract): Takes two integers as input and returns their difference.
+
+Multiplication (multiply): Takes two integers as input and returns their product.
+
+Division (divide): Takes two integers as input and returns the result of division.
+
+Modulo (modulo): Takes two integers as input and returns the remainder of division.
+
+Usage
+
+The program contains a main method that demonstrates the usage of the Calculator class by creating an instance and performing some calculations:
+
+public static void main(String[] args){
+    Calculator myCalculator = new Calculator();
+    System.out.println(myCalculator.add(5,7));  // Output: 12
+    System.out.println(myCalculator.subtract(45,11));  // Output: 34
+}
+
+Compilation & Execution
+
+To compile and run the program, follow these steps:
+
+Save the code as Calculator.java.
+
+Open a terminal or command prompt.
+
+Navigate to the directory containing Calculator.java.
+
+Compile the program using:
+
+javac Calculator.java
+
+Run the program using:
+
+java Calculator
+
+Notes
+
+The divide method does not handle division by zero. A try-catch block can be added to handle such exceptions.
+
+The program currently returns integer results. For floating-point calculations, method parameters should be modified to double.
 
 
 
