@@ -157,71 +157,59 @@ Modify the operations to observe different results.
 
 
 # 5.[BASIC CALCULATOR](https://github.com/akhilarun23/JAVA-simple-projects-daily/blob/main/BasicCalculator.java)
-Description
+# Calculator
 
-This is a simple Java program that implements a basic calculator. The Calculator class provides methods to perform basic arithmetic operations: addition, subtraction, multiplication, division, and modulo.
+## Description
+A simple Java program that implements a basic calculator. The `Calculator` class provides methods for performing arithmetic operations such as addition, subtraction, multiplication, division, and modulo.
 
-Features
+## Features
+- **Addition (`add`)**: Returns the sum of two integers.
+- **Subtraction (`subtract`)**: Returns the difference between two integers.
+- **Multiplication (`multiply`)**: Returns the product of two integers.
+- **Division (`divide`)**: Returns the quotient of two integers.
+- **Modulo (`modulo`)**: Returns the remainder when one integer is divided by another.
 
-Addition (add method)
+## Installation
+### Prerequisites
+- Java Development Kit (JDK) installed.
+- A Java-supported IDE or command-line terminal.
 
-Subtraction (subtract method)
+### Compilation & Execution
+1. Save the code as `Calculator.java`.
+2. Open a terminal or command prompt.
+3. Navigate to the directory containing `Calculator.java`.
+4. Compile the program using:
+   ```sh
+   javac Calculator.java
+   ```
+5. Run the program using:
+   ```sh
+   java Calculator
+   ```
 
-Multiplication (multiply method)
+## Usage
+The program demonstrates the functionality of the `Calculator` class by creating an instance and performing calculations:
 
-Division (divide method)
-
-Modulo (modulo method)
-
-Code Explanation
-
-The Calculator class contains the following methods:
-
-Constructor: The Calculator class has a default constructor.
-
-Addition (add): Takes two integers as input and returns their sum.
-
-Subtraction (subtract): Takes two integers as input and returns their difference.
-
-Multiplication (multiply): Takes two integers as input and returns their product.
-
-Division (divide): Takes two integers as input and returns the result of division.
-
-Modulo (modulo): Takes two integers as input and returns the remainder of division.
-
-Usage
-
-The program contains a main method that demonstrates the usage of the Calculator class by creating an instance and performing some calculations:
-
-public static void main(String[] args){
+```java
+public static void main(String[] args) {
     Calculator myCalculator = new Calculator();
-    System.out.println(myCalculator.add(5,7));  // Output: 12
-    System.out.println(myCalculator.subtract(45,11));  // Output: 34
+    System.out.println("Addition: " + myCalculator.add(5, 7)); // Output: 12
+    System.out.println("Subtraction: " + myCalculator.subtract(45, 11)); // Output: 34
 }
+```
 
-Compilation & Execution
+## Notes
+- The `divide` method does not handle division by zero. Implementing a `try-catch` block is recommended.
+- The program currently returns integer results. To support floating-point calculations, modify the method parameters to `double`.
 
-To compile and run the program, follow these steps:
+## License
+This project is open-source and available for educational purposes.
 
-Save the code as Calculator.java.
+## Author
+Created for educational purposes to demonstrate Java programming concepts.
 
-Open a terminal or command prompt.
 
-Navigate to the directory containing Calculator.java.
 
-Compile the program using:
-
-javac Calculator.java
-
-Run the program using:
-
-java Calculator
-
-Notes
-
-The divide method does not handle division by zero. A try-catch block can be added to handle such exceptions.
-
-The program currently returns integer results. For floating-point calculations, method parameters should be modified to double.
 
 
 
