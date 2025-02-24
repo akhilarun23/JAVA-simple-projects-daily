@@ -203,6 +203,81 @@ public static void main(String[] args) {
 
 
 
+# 6.[Build A Droid](https://github.com/akhilarun23/JAVA-simple-projects-daily/blob/main/BuildADroid.java)
+# Droid Java Program
+
+This is a simple Java program that simulates the behavior of droid instances, including task execution, battery management, and energy transfer between droids.
+
+## Features
+- **Create a Droid:** Instantiate a droid with a name and a default battery level of 100.
+- **Perform Tasks:** Droids can perform tasks, which reduce their battery level by 10 units.
+- **Check Battery Level:** Check the current battery level of a droid.
+- **Energy Transfer:** When a droid's battery level is 20 or below, it can receive energy, increasing its battery level by 10.
+- **String Representation:** Get a friendly string description of the droid.
+
+## Class Breakdown
+
+### `Droid`
+
+- **Attributes:**
+  - `name`: The name of the droid.
+  - `batteryLevel`: The current battery level (initially set to 100).
+
+- **Constructor:**
+  - `Droid(String droidName)`: Creates a new droid with a given name.
+
+- **Methods:**
+  - `performTask(String task)`: Reduces battery by 10 and prints the task being performed.
+  - `checkBattery()`: Prints the current battery level.
+  - `energyTransfer()`: If battery is 20 or less, adds 10 to the battery level.
+  - `toString()`: Returns a string with the droid's name.
+
+## Main Program
+In the `main` method:
+- Two droid instances are created (`Codey` and `Rodey`).
+- `Codey` performs multiple tasks until the battery is drained.
+- Battery levels are checked.
+- Energy transfer is triggered when needed.
+- `Rodey` loses some energy to demonstrate battery consumption.
+
+## Example Output
+```
+Hello, I'm the droid: Codey
+Codey is performing task: Dancing
+Codey is performing task: Running
+...
+The battery level of Codey is 10
+The battery level of Rodey is 100
+Codey gets energy from other instance and battery level is 20
+The battery level of Rodey is 90
+```
+
+## How to Run
+1. Save the code in a file named `Droid.java`.
+2. Compile the program:
+   ```sh
+   javac Droid.java
+   ```
+3. Run the program:
+   ```sh
+   java Droid
+   ```
+
+## Possible Improvements
+- Allow energy transfer between two droids.
+- Add more complex energy drain or recharge behaviors.
+- Introduce droid-specific abilities.
+
+Feel free to contribute or extend the functionality! 🚀
+
+---
+
+Let me know if you want me to refine anything or add more explanations! ✨
+
+
+
+
+
 
 
 
